@@ -5,7 +5,7 @@ Naïve Bayes classifier trained using datasets retrieved from Kaggle. The classi
 Two notebooks in this project:
 
 1. SentimentalAnalysisClassifierTrainer.ipynb: Trains the classifier to perform sentiment analysis on stock-related news/tweets/texts.
-2. PortfolioAnalysis.ipynb: Retrieves ETFs (etf_sectors.csv) related to sector(s) indicated in the sector_list variable.
+2. PortfolioAnalysis.ipynb: Retrieves ETFs (etf_sectors.csv) related to sector(s) indicated in the sector_list variable. News on the ETFs are then queried using the CityFalcon API afterwhich sentiment analysis is performed.
 
 References:
 
